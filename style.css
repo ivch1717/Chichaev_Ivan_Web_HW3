@@ -5,19 +5,25 @@
 }
 .container {
     height: 100vh;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    display: none;
+}
+.start_game{
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    column-gap: 20px;
 }
 p{
     color: #c3073F;
 }
 table{
     table-layout: fixed;
-    width: 39vh;
-    height: 39vh;
     border-collapse: collapse;
     border: 6px solid #1A1A1D;
 }
@@ -54,6 +60,7 @@ button:active{
 }
 td:hover{
     background: linear-gradient(to bottom, #1A1A1D, black);
+    cursor: pointer;
 }
 td:active{
     background: black;

@@ -7,25 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="start_game">
+        <button id="btn3"> Режим 3 на 3 </button>
+        <button id="btn4"> Режим 4 на 4 </button>
+    </div>
     <div class="container">
         <p> Крестики нолики </p>
         <p>Текущий игрок: <span id="player">X</span></p>
         <p id="winner"> </p>
         <table id="field">
             <tr>
-                <td class="cell" id="cell-11" data-row="1" data-colomun="1"> </td> 
-                <td class="cell" id="cell-12" data-row="1" data-colomun="2"> </td> 
-                <td class="cell" id="cell-13" data-row="1" data-colomun="3"> </td> 
+                <td data-row="1" data-colomun="1"> </td> 
+                <td data-row="1" data-colomun="2"> </td> 
+                <td data-row="1" data-colomun="3"> </td> 
             </tr>    
             <tr>
-                <td class="cell" id="cell-21" data-row="2" data-colomun="1">  </td> 
-                <td class="cell" id="cell-22" data-row="2" data-colomun="2"> </td> 
-                <td class="cell" id="cell-23" data-row="2" data-colomun="3">  </td>
+                <td data-row="2" data-colomun="1">  </td> 
+                <td data-row="2" data-colomun="2"> </td> 
+                <td data-row="2" data-colomun="3">  </td>
             </tr>
             <tr>
-                <td class="cell" id="cell-31" data-row="3" data-colomun="1">  </td> 
-                <td class="cell" id="cell-32" data-row="3" data-colomun="2">  </td> 
-                <td class="cell" id="cell-33" data-row="3" data-colomun="3">  </td>
+                <td data-row="3" data-colomun="1">  </td> 
+                <td data-row="3" data-colomun="2">  </td> 
+                <td data-row="3" data-colomun="3">  </td>
             </tr>
         </table>
         <button id="btn"> Сброс игры </button>
