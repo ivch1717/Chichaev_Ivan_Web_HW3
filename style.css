@@ -1,0 +1,60 @@
+*{
+    background-color: #1A1A1D;
+    font-family: 'Arial';
+    font-size: 2.5vh;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+p{
+    color: #c3073F;
+}
+table{
+    table-layout: fixed;
+    width: 39vh;
+    height: 39vh;
+    border-collapse: collapse;
+    border: 6px solid #1A1A1D;
+}
+td,th{
+    padding: 3x;
+    border: 3px solid #6f2232; 
+    text-align: center;
+    overflow: hidden;
+    width: 13vh;
+    height: 13vh;
+    font-size: 10vh;
+}
+button{
+    background: linear-gradient(to bottom, #950740, #c3073F);
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 15px;
+    appearance: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #950740;
+}
+button:active{
+    background-color: #6f2232;
+    box-shadow: 0 0 0 4px  black;
+}
+#player{
+    color: blue;
+}
+#winner{
+    font-weight: 300;
+    color: red;
+}
+td:hover{
+    background: linear-gradient(to bottom, #1A1A1D, black);
+}
+td:active{
+    background: black;
+}

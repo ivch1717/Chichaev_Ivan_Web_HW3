@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p> Крестики нолики </p>
+        <p>Текущий игрок: <span id="player">X</span></p>
+        <p id="winner"> </p>
+        <table id="field">
+            <tr>
+                <td class="cell" id="cell-11" data-row="1" data-colomun="1"> </td> 
+                <td class="cell" id="cell-12" data-row="1" data-colomun="2"> </td> 
+                <td class="cell" id="cell-13" data-row="1" data-colomun="3"> </td> 
+            </tr>    
+            <tr>
+                <td class="cell" id="cell-21" data-row="2" data-colomun="1">  </td> 
+                <td class="cell" id="cell-22" data-row="2" data-colomun="2"> </td> 
+                <td class="cell" id="cell-23" data-row="2" data-colomun="3">  </td>
+            </tr>
+            <tr>
+                <td class="cell" id="cell-31" data-row="3" data-colomun="1">  </td> 
+                <td class="cell" id="cell-32" data-row="3" data-colomun="2">  </td> 
+                <td class="cell" id="cell-33" data-row="3" data-colomun="3">  </td>
+            </tr>
+        </table>
+        <button id="btn"> Сброс игры </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
